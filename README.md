@@ -10,4 +10,4 @@ Calculates Tip, basically just gonna remake [this one](https://www.google.com/se
 
 ## Disclaimer
 
-I am a student, learning Web Design in my college courses. For my profesional work, visit [@DeJayDev](https://github.com/DeJayDev)
+I am a student, learning Web Design in my college courses. For my profesional work, visit [@DeJayDev](https://github.com/DeJayDev)~
