@@ -1,9 +1,12 @@
-const value = document.getElementById('value')
-const billInput = document.getElementById('bill')
-const tipInput = document.getElementById('tip')
+const tip = document.getElementById('tip')
+const total = document.getElementById('total')
+const billInput = document.getElementById('billinput')
+const tipInput = document.getElementById('tipinput')
+const peopleInput = document.getElementById('people')
 
 billInput.addEventListener('input', calculateTip)
 tipInput.addEventListener('input', calculateTip)
+peopleInput.addEventListener('input', calculateTip)
 
 document.addEventListener('DOMContentLoaded', calculateTip);
 
