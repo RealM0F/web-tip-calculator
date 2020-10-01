@@ -3,7 +3,7 @@
         <meta charset="utf-8">
         <title>Tip Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="css/style.css">
         <script src="js/index.js" async defer></script>
     </head>
     <body>
@@ -12,13 +12,12 @@
         </center>
 
         <div id="results">
-            <p id="tip"> $0.00 </p>
-            <p id="total"> $0.00 </p>
+            <p id="tip">Tip: $0.00 </p>
+            <p id="total">Total: $0.00 </p>
         </div>
 
-        <input id="billinput" value="10.00" type="number" placeholder="Bill">
-        <input id="tipinput" value="15" type="number" placeholder="Tip Percent">
-        <input id="people" value="1" type="number" placeholder="Number of People">
+        <input id="billinput" value="10.00" type="number" pattern="[0-9]" placeholder="Bill">
+        <input id="tipinput" value="15" type="number" pattern="[0-9]" placeholder="Tip Percent">
 
     </body>
 </html>

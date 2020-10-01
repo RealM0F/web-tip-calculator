@@ -1,20 +1,20 @@
-const tip = document.getElementById('tip')
-const total = document.getElementById('total')
+const tipElement = document.getElementById('tip')
+const totalElement = document.getElementById('total')
 const billInput = document.getElementById('billinput')
 const tipInput = document.getElementById('tipinput')
-const peopleInput = document.getElementById('people')
 
 billInput.addEventListener('input', calculateTip)
 tipInput.addEventListener('input', calculateTip)
-peopleInput.addEventListener('input', calculateTip)
 
 document.addEventListener('DOMContentLoaded', calculateTip);
 
 function calculateTip() {
-    const billValue = parseFloat(billInput.value)
-    const tipValue = parseFloat(tipInput.value)
+    const bill = parseFloat(billInput.value)
+    const percent = parseFloat(tipInput.value)
 
-    const tipAmount = billValue * tipValue / 100
+    var tip = bill * percent / 100
+    var total = bill + tip
 
-    value.innerHTML = '$' + tipAmount.toFixed(2)
+    tipElement.innerHTML = 'Tip: $' + tip.toFixed(2)
+    totalElement.innerText = 'Total: $' + total.toFixed(2)
 }
