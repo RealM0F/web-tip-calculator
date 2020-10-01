@@ -2,9 +2,11 @@
 
 This assignment did not come with a blurb.
 
+Calculates Tip, basically just gonna remake [this one](https://www.google.com/search?q=tip+calculator)
+
 ## Deploy
 
-This page is visible at <>
+[This page is hosted on Vercel](https://dejay-atwxrllz.vercel.app)
 
 ## Disclaimer
 

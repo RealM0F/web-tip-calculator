@@ -4,15 +4,20 @@
         <title>Tip Calculator</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <script src="js/index.js" async defer></script>
     </head>
     <body>
-        <main>
-            <h1>Tip Calc</h1>
-            <div id="display">0.00</div>
-            <input id="bill" value="10.00" type="number", placeholder="Bill">
-            <input id="tip" value="15" type="number", placeholder="Tip Percent">
-          </main>
+        <center>
+            <h1>Tip Calculator</h1>
+        </center>
+        <div id="display">
+            <p id="total">$0.00</p>
+            <p> + </p>
+            <p id="value">$0.00</p> <p> = </p>
+            <p id="full-total">$0.00</p>
+        </div>
+        <input id="bill" value="10.00" type="number" placeholder="Bill">
+        <input id="tip" value="15" type="number" placeholder="Tip Percent">
         
-        <script src="js/index.js" async defer></script>
     </body>
 </html>
